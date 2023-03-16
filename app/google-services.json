@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295535290119",
+    "project_id": "gymutc-b977a",
+    "storage_bucket": "gymutc-b977a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295535290119:android:e169a0a3704674029087a2",
+        "android_client_info": {
+          "package_name": "com.example.hacermovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295535290119-4lh1uqrhsrn54fcqaaoso50uo7hhn70l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjI9fLcLh_QsnrzFnz4uG90X16BUW6c1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295535290119-4lh1uqrhsrn54fcqaaoso50uo7hhn70l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

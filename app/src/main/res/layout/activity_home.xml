@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:text="Cerrar Sesión" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:layout_gravity="center"
+        android:maxWidth="300dp"
+        android:text="Nuestras instalaciones estaran listas proximamente, por lo pronto, podemos contactarte mediante e-mail o telefono celular con los pasos a seguir para conseguir una suscripción con nosotros!" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxWidth="300dp"
+        android:layout_marginBottom="70dp"
+        android:text="Solo tienes que enviarnos 2 medios de contacto:" />
+
+    <EditText
+        android:id="@+id/txt_emailEditable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="email@email.com"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txt_phoneEditable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="1234567890"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_saveInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:text="Guardar Información" />
+
+    <Button
+        android:id="@+id/btn_deleteInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+
+        android:text="Eliminar Información" />
+</FrameLayout>
